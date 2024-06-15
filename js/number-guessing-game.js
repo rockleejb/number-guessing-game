@@ -36,7 +36,7 @@ function runGame() {
     if (difficulty <= 1000) {
         alert(`${guessHistory[guessHistory.length - 1]} is correct! You guessed it in ${numTries} tries.`);
     } else {
-        alert(`${guessHistory[guessHistory.length - 1]}. Flawless victory, no cap. Gold star once my backorder arrives.`);
+        alert(`${guessHistory[guessHistory.length - 1]}. Gold star once my backorder arrives, no cap.`);
     }
 }
 
